@@ -1,0 +1,52 @@
+@import "src/styles/vars";
+
+.title {
+    &__container {
+        text-align: center;
+        animation-duration: 2s;
+        animation-name: slideinTitle;
+    }
+    &__name {
+        font-size: 2em;
+        padding-top: 1rem;
+    }
+
+    &__para {
+        font-size: 1.5em;
+        margin: 0 0 50px 0;
+    }
+}
+
+@keyframes slideinTitle {
+    0%{
+        position: absolute;
+        right: -300px;
+    }
+    100% {
+        position: absolute;
+        right: 35%;
+    }
+}
+
+.animation {
+    &-container-end {
+        background-color: black;
+        padding: 8rem;
+        display: flex;
+        justify-content:center;
+        box-shadow: -10px -10px 3px #818181, -10px 10px 13px #818181, inset -10px 10px 3px #818181, inset 10px -10px 3px #818181;
+        margin-bottom: 4rem;
+    }
+    &-title-end {
+        font-size: 2.5rem;
+        padding: 1rem;
+        color: rgb(224, 231, 243);
+        
+    }
+    &-paraTitle-end {
+        color: rgb(108, 141, 250);
+         margin: 50px 0px  0px 5px;
+         font-size: 1.5rem;
+         padding-top: .8rem;
+    }
+}
