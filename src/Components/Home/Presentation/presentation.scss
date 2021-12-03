@@ -1,45 +1,67 @@
 @import "../../../styles/vars";
 
-.presentation{
-&__container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 50%;
-    font-family: $fontFamily;
-    margin-top: 5rem;
-}
-&__title{
-    padding: 2rem ;
-    font-size: 2.5em;
-    box-shadow: 1px 10px 10px #bdbcbc, -5px 10px 10px #808080, inset 5px 1px 10px #f2f5f3, inset -1px -5px 3px #e8e9e8;
-    --couleur:0, 0, 0;
-margin: 2rem auto;
-display: flex;
-justify-content: center;
+    .presentation {
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 5rem;
+            font-family: $fontFamily;
+           
+        }
+        &__title {
+            padding: 2rem;
+            font-size: 2.5em;
+            box-shadow: 1px 10px 10px #bdbcbc, -5px 10px 10px #808080, inset 5px 1px 10px #f2f5f3,
+                inset -1px -5px 3px #e8e9e8;
+            --couleur: 0, 0, 0;
+            margin: 2rem auto;
+            display: flex;
+            justify-content: center;
+            width: 40%;
+            color: rgb(255, 255, 255);
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #acacac, 0 3px 0 #a0a0a0, 0 4px 0 #9b9a9a, 0 5px 0 #888787,
+                0 6px 1px rgba(var(--couleur), 0.1), 0 0 5px rgba(var(--couleur), 0.1),
+                0 1px 3px rgba(var(--couleur), 0.3), 0 3px 5px rgba(var(--couleur), 0.3),
+                0 5px 10px rgba(var(--couleur), 0.25), 0 10px 10px rgba(var(--couleur), 0.2),
+                0 20px 20px rgba(var(--couleur), 0.15);
+            font-size: 3rem;
+        }
+        &__para {
+            justify-content: center;
+            text-align: justify;
+            font-size: 1.1em;
+            padding: 2rem;
+            width: 50%;
+        }
+    }
 
-color: rgb(255, 255, 255);
-text-shadow: 
-0 1px 0 #ccc, 
-0 2px 0 #acacac,
-0 3px 0 #a0a0a0,
-0 4px 0 #9b9a9a,
-0 5px 0 #888787,
-0 6px 1px rgba(var(--couleur),.1),
-0 0 5px rgba(var(--couleur),.1),
-0 1px 3px rgba(var(--couleur),.3),
-0 3px 5px rgba(var(--couleur),.3),
-0 5px 10px rgba(var(--couleur),.25),
-0 10px 10px rgba(var(--couleur),.2),
-0 20px 20px rgba(var(--couleur),.15);
-font-size: 4rem
-}
-&__para{
-    justify-content: center;
-    text-align: justify;
-    font-size: 1.1em;
-    padding: 2rem;
-    
 
-}
-}
+
+    @media (max-width: 600px) {
+       .presentation__container{
+            margin: 0;
+       }
+       
+        .presentation__title{
+            padding: 2rem;
+            font-size: 2.5em;
+            
+            --couleur: 0, 0, 0;
+            margin: 2rem auto;
+            display: flex;
+            justify-content: center;
+            width: 40%;
+            color: rgb(255, 255, 255);
+            box-shadow:none
+    }
+    .presentation__para {
+        justify-content: center;
+        text-align: justify;
+        font-size: 1.1em;
+        padding: 1rem;
+        width: 80%;
+    }
+    }

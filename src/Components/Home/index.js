@@ -12,17 +12,18 @@ export const Home = () => {
     return (
         <div className="home__container">
             <Title />
+           
             <div className="home__down">
-                <NavBar />
-                <Welcome />
-                <Picture />
-
+                <NavBar className="navBar"/>
+                <Welcome className="welcome"/>
+                <Picture className="picture" />
             </div>
             <div className="home__container__presentation">
                 <Presentation />
                 <Competences />
                 <Projects />
-            </div>
+                
+                </div>
         </div>
     )
 }

@@ -41,3 +41,36 @@ box-shadow:  -17px 17px 34px #989898,
 .container__foto {
     display: inline;
 }
+
+@media (max-width:1350px) {
+    .myFoto{
+        animation: none;
+        height: 6rem
+    }
+}
+
+@media (max-width:1300px){
+    .myFoto{
+        top:8%;
+        left:10%
+    }
+}
+
+@media (max-width:850px) {
+    .myFoto{
+        animation: none;
+        top: 2rem;
+        height: 8rem;
+        left:9%
+       
+    }
+}
+@media (max-width:450px) {
+    .myFoto{
+        animation: none;
+        top: 2rem;
+        left: 6%;
+        height: 2rem;
+       
+    }
+}

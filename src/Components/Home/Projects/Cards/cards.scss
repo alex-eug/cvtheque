@@ -1,39 +1,46 @@
 @import "../../../../styles/vars";
 
-.card__container{
-    width: 500px;
-    margin: 5rem 0;
-    border: 1px solid black;
-    padding: .3rem;
-    border-radius: 1rem;
-}
-.card__img{
-    border-radius: 1rem;
-}
-.card__title{
-    --couleur:0, 0, 0;
-margin: 1rem auto;
-display: flex;
-justify-content: center;
-font-family: 'Exo';
-color: white;
-text-shadow: 
-0 1px 0 #ccc, 
-0 2px 0 #acacac,
-0 3px 0 #a0a0a0,
-0 4px 0 #9b9a9a,
-0 5px 0 #888787,
-0 6px 1px rgba(var(--couleur),.1),
-0 0 5px rgba(var(--couleur),.1),
-0 1px 3px rgba(var(--couleur),.3),
-0 3px 5px rgba(var(--couleur),.3),
-0 5px 10px rgba(var(--couleur),.25),
-0 10px 10px rgba(var(--couleur),.2),
-0 20px 20px rgba(var(--couleur),.15);
-font-size: 3rem
-}
-.card__para{
-    color:#000000;
-    padding: 1rem;
-    border-bottom: 1px solid black;
-}
+
+    .card__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem 0;
+        width: 23rem;
+        text-align: center;
+        border: 10px solid #42A1F5;
+        margin: 1rem 0 2rem 0rem;
+
+        border-radius: 10%;
+    }
+    .card__img {
+        border-radius: 1rem;
+        width: 90%;
+    }
+    .card__title {
+        --couleur: 0, 0, 0;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: center;
+        font-family: "Indie Flower", cursive;
+        color: rgb(0, 0, 0);
+        border: 3px solid #42A1F5;
+        border-left: 0;
+        border-right: 0;
+        font-size: 2.8rem;
+        padding: .5rem;
+    }
+    .card__para {
+        color: #000000;
+        padding: 1rem 1rem;
+        font-family: $fontFamily;
+    }
+    .linkto {
+        text-decoration: none;
+        color: #42A1F5;
+        padding: 0.2rem;
+        font-size: 2em;
+    }
+    
