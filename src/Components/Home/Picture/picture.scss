@@ -3,10 +3,10 @@
 .myFoto {
     border-radius: 50%;
     position: absolute;
-    left: 5%;
-    top: 15%;
+    left: 15%;
+    top:55%;
     height: 3rem;
-    animation: rotate-coins 1s linear 2s forwards;
+    animation: rotate-coins .8s linear 2s forwards;
     margin-top: .6rem;
 
     @keyframes rotate-coins {

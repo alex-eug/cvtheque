@@ -7,13 +7,16 @@
         animation-duration: 2s;
         animation-name: slidein;
         width: auto;
+       
 
         @keyframes slidein {
-            from {
+            0% {
                 position: absolute;
-                left: -300px;
+                left: -40%;
             }
-            to {
+
+            
+            100% {
                 position: absolute;
                 left: 35%;
             }
