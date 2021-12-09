@@ -1,13 +1,14 @@
 @import "src/styles/vars";
 
-
-    .projects__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+.projects__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+    
 
     .projects__title {
         width: 40%;

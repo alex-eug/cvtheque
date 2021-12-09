@@ -1,0 +1,72 @@
+@import '../../../styles/vars';
+
+.contact__container{
+   
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 1rem;
+           
+           
+    
+}
+.contact__title{
+    font-family: $fontFamily;
+    padding:2rem 10rem;
+    font-size: 2.5em;
+    box-shadow: 1px 10px 10px #bdbcbc, -5px 10px 10px #808080, inset 5px 1px 10px #f2f5f3,
+        inset -1px -5px 3px #e8e9e8;
+    --couleur: 0, 0, 0;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #acacac, 0 3px 0 #a0a0a0, 0 4px 0 #9b9a9a, 0 5px 0 #888787,
+        0 6px 1px rgba(var(--couleur), 0.1), 0 0 5px rgba(var(--couleur), 0.1),
+        0 1px 3px rgba(var(--couleur), 0.3), 0 3px 5px rgba(var(--couleur), 0.3),
+        0 5px 10px rgba(var(--couleur), 0.25), 0 10px 10px rgba(var(--couleur), 0.2),
+        0 20px 20px rgba(var(--couleur), 0.15);
+    font-size: 3rem;
+}
+
+.card__contact{
+    width: 50%;
+    margin-bottom: 20%;
+    
+}
+
+.contact__title{
+  margin-bottom: 5rem;
+}
+
+.linkto__converter--end{
+  text-decoration: none;
+  color: #42A1F5;
+  padding: 0.2rem;
+  font-size: 5em;
+}
+.linkto__converter--end:hover{
+  text-decoration: none;
+  color: #1b4468;
+  padding: 0.2rem;
+  font-size: 5em;
+}
+
+  .to__cv{
+   
+  background-color: #42A1F5;
+  padding: 0.2rem;
+  font-size: 5em;
+  }
+  .linkto__converter--end--mail{
+    text-decoration: none;
+    color: white;
+  
+  }
+  .linkto__converter--end--mail:hover{
+    text-decoration: none;
+    color: #1b4468;
+  }

@@ -6,7 +6,7 @@
     left: 15%;
     top:55%;
     height: 3rem;
-    animation: rotate-coins .8s linear 2s forwards;
+    animation: rotate-coins .6s linear 2.3s forwards;
     margin-top: .6rem;
 
     @keyframes rotate-coins {
@@ -30,7 +30,7 @@
             position: relative;
             left: 40%;
             
-            transform: rotate(360deg);
+            transform: rotate(720deg);
             border: 5px solid rgb(216, 215, 215);
             background: linear-gradient(225deg, #f0f0f0, #cacaca);
 box-shadow:  -17px 17px 34px #989898,

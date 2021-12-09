@@ -7,23 +7,24 @@ import { Welcome } from './Welcome';
 import { Presentation } from './Presentation';
 import { Competences } from './Competences';
 import { Projects } from './Projects';
+import { Contact } from './Contact';
 
 export const Home = () => {
     return (
         <div className="home__container">
             <Title />
-           
+
             <div className="home__down">
-                <NavBar className="navBar"/>
-                <Welcome className="welcome"/>
+                <NavBar className="navBar" />
+                <Welcome className="welcome" />
                 <Picture className="picture" />
             </div>
             <div className="home__container__presentation">
                 <Presentation />
                 <Competences />
                 <Projects />
-                
-                </div>
+                <Contact />
+            </div>
         </div>
     )
 }

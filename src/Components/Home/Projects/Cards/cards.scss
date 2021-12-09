@@ -1,5 +1,11 @@
 @import "../../../../styles/vars";
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600&display=swap');
 
+.full__card--container{
+    display: flex;
+   flex-direction: column;
+   margin: 5rem;
+}
 
     .card__container {
         display: flex;
@@ -11,13 +17,32 @@
         width: 23rem;
         text-align: center;
         border: 10px solid #42A1F5;
-        margin: 1rem 0 2rem 0rem;
+        margin: 1rem 1rem 2rem 1rem;
 
         border-radius: 10%;
+
+    &--converter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem 0;
+        width: 23rem;
+        text-align: center;
+        border: 10px solid #5EC2CF;
+        margin: 1rem 1rem 2rem 1rem;
+
+        border-radius: 10%;
+    }
+    }
+    .card__container--img{
+        height: 50%;
     }
     .card__img {
         border-radius: 1rem;
         width: 90%;
+       
     }
     .card__title {
         --couleur: 0, 0, 0;
@@ -31,6 +56,21 @@
         border-right: 0;
         font-size: 2.8rem;
         padding: .5rem;
+
+        
+        &--converter{
+            --couleur: 0, 0, 0;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: center;
+        font-family: 'Hind', sans-serif;
+        color: rgb(0, 0, 0);
+        border: 3px solid #5EC2CF;
+        border-left: 0;
+        border-right: 0;
+        font-size: 2.8rem;
+        padding: .5rem;
+        }
     }
     .card__para {
         color: #000000;
@@ -42,5 +82,18 @@
         color: #42A1F5;
         padding: 0.2rem;
         font-size: 2em;
+        &:hover{
+            color: #1b4468;
+        }
+        &__converter{
+            color:#5EC2CF;
+            text-decoration: none;
+            padding: 0.2rem;
+            font-size: 2em;
+            &:hover{
+                color: #1b4468;
+            }
+        }
+
     }
     

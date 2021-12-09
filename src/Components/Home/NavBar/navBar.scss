@@ -4,21 +4,21 @@
     &__container {
         display: inline-block;
         // border-radius: 1rem;
-        animation-duration: 2s;
-        animation-name: slidein;
+        
+        animation: slidein .3s  2s;
         width: auto;
        
 
         @keyframes slidein {
             0% {
                 position: absolute;
-                left: -40%;
+                left: -140%;
             }
 
             
             100% {
                 position: absolute;
-                left: 35%;
+                left: -100%;
             }
         }
     }
@@ -79,5 +79,6 @@
        
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 }

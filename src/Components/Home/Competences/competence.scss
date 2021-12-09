@@ -18,6 +18,7 @@
 
     .skill__title {
         font-family: $fontFamily;
+        font-size: x-small;
         padding: 2rem;
         
         box-shadow: 1px 10px 10px #cfcfcf, -5px 10px 10px #808080, inset 5px 1px 10px #f2f5f3,
@@ -48,6 +49,9 @@
         width: 60%;
         height: 68px;
         margin: 0.2rem 0rem;
+    }
+    .title {
+        font-weight:lighter;
     }
     .bar:before {
         position: absolute;
