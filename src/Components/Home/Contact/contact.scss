@@ -123,6 +123,10 @@
 }
 
 @media (max-width:850px) {
+  .card__contact{
+    width: 80%;
+  }
+  
   .linkto__converter--end{
     text-decoration: none;
     color: $yellowColor;
@@ -150,4 +154,12 @@
     color: rgb(0, 0, 0);
    font-size: .8rem;
 }
+}
+@media (max-width:450px){
+  .linkto__converter--end--mail{
+    font-size: .9rem;
+  }
+  .card__contact{
+    width: 80%;
+  }
 }

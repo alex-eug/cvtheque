@@ -1,7 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import './navBar.scss'
-import { useEffect } from 'react'
+
 
 export const NavBar = () => {
 

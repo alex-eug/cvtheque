@@ -16,7 +16,6 @@ export const Home = () => {
 
             <div className="home__down">
                 <NavBar className="navBar" />
-               
                 <Picture className="picture" />
             </div>
             <div className="home__container__presentation">

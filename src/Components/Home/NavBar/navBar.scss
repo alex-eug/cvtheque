@@ -5,10 +5,7 @@
        
         // border-radius: 1rem;
         margin-bottom: 4rem;
-       
-        
-        
-        
+        display: flex;
     }
     &__para {
         text-decoration: none;
@@ -16,7 +13,6 @@
         padding: 0.5rem 2.5rem;
         color: #551A8B;
         font-family: $fontFamily;
-        
 
     }
 }
@@ -30,3 +26,15 @@
     color: rgb(7, 7, 7);
 }
 
+@media (max-width:850px){
+    .nav__para{
+        padding: 2rem 1rem  0 1rem;
+    }
+}
+
+@media (max-width:450px){
+    .nav__container{
+        display: flex;
+        flex-direction: column;        
+    }
+}
