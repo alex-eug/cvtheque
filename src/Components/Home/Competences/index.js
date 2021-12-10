@@ -4,7 +4,7 @@ import './competence.scss'
 export const Competences = () => {
     return (
         <div className="competence">
-    <h1 id="comp" className="skill__title">Mes compétences</h1>
+    <h1 id="comp" className="skill__title">Compétences</h1>
         <div className="skills__container">
           
         

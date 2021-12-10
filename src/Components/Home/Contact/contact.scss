@@ -1,6 +1,6 @@
 @import '../../../styles/vars';
-
-.contact__container{
+.card__contact
+{
    
         display: flex;
             flex-direction: column;
@@ -8,65 +8,146 @@
             align-items: center;
             text-align: center;
             margin-top: 1rem;
+            border: 5px solid $yellowColor;
+            background-color: black;
            
            
     
 }
 .contact__title{
-    font-family: $fontFamily;
-    padding:2rem 10rem;
-    font-size: 2.5em;
-    box-shadow: 1px 10px 10px #bdbcbc, -5px 10px 10px #808080, inset 5px 1px 10px #f2f5f3,
-        inset -1px -5px 3px #e8e9e8;
-    --couleur: 0, 0, 0;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    
-    color: rgb(255, 255, 255);
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #acacac, 0 3px 0 #a0a0a0, 0 4px 0 #9b9a9a, 0 5px 0 #888787,
-        0 6px 1px rgba(var(--couleur), 0.1), 0 0 5px rgba(var(--couleur), 0.1),
-        0 1px 3px rgba(var(--couleur), 0.3), 0 3px 5px rgba(var(--couleur), 0.3),
-        0 5px 10px rgba(var(--couleur), 0.25), 0 10px 10px rgba(var(--couleur), 0.2),
-        0 20px 20px rgba(var(--couleur), 0.15);
-    font-size: 3rem;
+  font-family: $fontFamily;
+  padding: 1.5rem;
+  border-radius: 27px;
+  background: #e5fa6c;
+  box-shadow: inset 5px 5px 12px #626c2e,
+              inset -5px -5px 12px #ffffaa;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  text-shadow: 
+  1px 1px 1px #b8b8b8,
+  1px 2px 1px #b8b8b8,
+  1px 3px 1px #b8b8b8,
+  1px 4px 1px #b8b8b8,
+  1px 5px 1px #bbffff,
+  1px 6px 1px #b8b8b8,
+  1px 7px 1px #b8b8b8,
+  0 1px 1px rgba(68,68,68,.3),
+  0 5px 3px rgba(68,68,68,.2),
+  0 10px 4px rgba(68,68,68,.2),
+  0 15px 8px rgba(68,68,68,.2),;
+  font-size: 5rem;
+  background-color: $yellowColor;
 }
 
 .card__contact{
-    width: 50%;
+    width: 60%;
     margin-bottom: 20%;
+
     
 }
 
 .contact__title{
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .linkto__converter--end{
   text-decoration: none;
-  color: #42A1F5;
-  padding: 0.2rem;
-  font-size: 5em;
+  color: white;
+  
+  padding: 2rem;
+  font-size: 3em;
+ 
 }
 .linkto__converter--end:hover{
   text-decoration: none;
-  color: #1b4468;
-  padding: 0.2rem;
-  font-size: 5em;
+  
+  color: $yellowColor;
 }
 
-  .to__cv{
-   
-  background-color: #42A1F5;
-  padding: 0.2rem;
-  font-size: 5em;
-  }
-  .linkto__converter--end--mail{
+.to__cv{
+  padding: 2rem ;
+  font-size: 3em;
+}
+.linkto__converter--end--mail{
+    border-radius: 25px;
+    background-color: $yellowColor;
     text-decoration: none;
     color: white;
+    
+    border-radius: 50px;
+
+
+           
+    padding: 0.5rem;
+
   
   }
   .linkto__converter--end--mail:hover{
     text-decoration: none;
-    color: #1b4468;
+   
+    font-size: 1.2em;
   }
+
+  @media (max-width:1350px) {
+    .linkto__converter--end{
+      text-decoration: none;
+      color: $yellowColor;
+      padding: 0.2rem;
+      font-size: 5em;
+     
+    }
+    .contact__title{
+      font-family: $fontFamily;
+      font-size: 3rem;
+      width:70%;
+  }
+    .linkto__converter--end--mail{
+      text-decoration: none;
+      color: white;
+    
+    }
+    .linkto__converter--end--mail:hover{
+      text-decoration: none;
+      color: #ffffff;
+     
+    }
+    .linkto__converter--end:hover{
+      text-decoration: none;
+      color: #fcfcfc;
+      
+     
+    }
+}
+
+@media (max-width:850px) {
+  .linkto__converter--end{
+    text-decoration: none;
+    color: $yellowColor;
+    padding: 0.2rem;
+    font-size: 2rem;
+   
+  }
+
+  .linkto__converter--end:hover{
+    text-decoration: none;
+    color: $yellowColor;
+    padding: 0.2rem;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .linkto__converter--end--mail{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    
+  }
+  .linkto__converter--end--mail:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   font-size: .8rem;
+}
+}

@@ -14,32 +14,44 @@
         justify-content: center;
         align-items: flex-start;
         font-family: $fontFamily;
+        
     }
 
     .skill__title {
         font-family: $fontFamily;
-        font-size: x-small;
-        padding: 2rem;
-        
-        box-shadow: 1px 10px 10px #cfcfcf, -5px 10px 10px #808080, inset 5px 1px 10px #f2f5f3,
-            inset -1px -5px 3px #e8e9e9;
-
-        width: 50%;
-        --couleur: 0, 0, 0;
+            padding: 2rem;
+            
+            border-radius: 27px;
+            background: #e5fa6c;
+            box-shadow: inset 5px 5px 12px #626c2e,
+                        inset -5px -5px 12px #ffffaa;
+            margin: 2rem auto;
+            display: flex;
+            justify-content: center;
+            width: 40%;
+            color: white;
+            text-shadow: 
+            1px 1px 1px #b8b8b8,
+            1px 2px 1px #b8b8b8,
+            1px 3px 1px #b8b8b8,
+            1px 4px 1px #b8b8b8,
+            1px 5px 1px #bbffff,
+            1px 6px 1px #b8b8b8,
+            1px 7px 1px #b8b8b8,
+            0 1px 1px rgba(68,68,68,.3),
+            0 5px 3px rgba(68,68,68,.2),
+            0 10px 4px rgba(68,68,68,.2),
+            0 15px 8px rgba(68,68,68,.2),;
+            font-size: 4rem;
+            background-color: $yellowColor;
        
-
-        color: white;
-        text-shadow: 0 1px 0 #ccc, 0 2px 0 #acacac, 0 3px 0 #a0a0a0, 0 4px 0 #9b9a9a, 0 5px 0 #888787,
-            0 6px 1px rgba(var(--couleur), 0.1), 0 0 5px rgba(var(--couleur), 0.1), 0 1px 3px rgba(var(--couleur), 0.3),
-            0 3px 5px rgba(var(--couleur), 0.3), 0 5px 10px rgba(var(--couleur), 0.25),
-            0 10px 10px rgba(var(--couleur), 0.2), 0 20px 20px rgba(var(--couleur), 0.15);
-        font-size: 3em;
     }
 
     .bar {
-        border-radius: 50px;
-        background: linear-gradient(145deg, #e0e0e0, #ffffff);
-        box-shadow: inset 4px -4px 8px #91a8b3, inset -4px 4px 8px #8a9eaa;
+        border-radius: 16px;
+background: #cfcfcf;
+box-shadow: inset 5px -5px 0px #535353,
+            inset -5px 5px 0px #e2e2e2;
         width: 20rem;
         height: 26px;
         position: relative;
@@ -52,14 +64,17 @@
     }
     .title {
         font-weight:lighter;
+        color: #551A8B;
+        text-align: justify;
+        
     }
     .bar:before {
         position: absolute;
         content: "";
         left: 6px;
         top: 5px;
-        background: rgb(108, 141, 250);
-        box-shadow: 5px 1px 10px #adadad, -5px 2px 1px #e6e6e6, inset 3px 3px 5px #f2f5f3, inset -1px -3px 7px #e8e9e8;
+        background: $yellowColor;
+        box-shadow: 5px 1px 10px #acacac, -5px 2px 1px #c5c5c5, inset 3px 3px 5px #b9b9b9, inset -1px -3px 7px #a8a8a8;
 
         height: 54%;
         border-radius: 55px;
@@ -83,18 +98,21 @@
         width: 25%;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 850px) {
         .skill__title{
-        padding: 2rem;
-            font-size: 2.5em;
-            
-            --couleur: 0, 0, 0;
+            font-family: $fontFamily;
+            padding: 2rem;
+            font-size: 2em;
+            border-radius: 27px;
+            background: #e5fa6c;
+            box-shadow: inset 5px 5px 12px #626c2e,
+                        inset -5px -5px 12px #ffffaa;
             margin: 2rem auto;
             display: flex;
             justify-content: center;
-            width: 40%;
+            width: 80%;
             color: rgb(255, 255, 255);
-            box-shadow:none
     }
 
-    }
+   
+}

@@ -5,6 +5,8 @@
     display: flex;
    flex-direction: column;
    margin: 5rem;
+   
+   align-items: center;
 }
 
     .card__container {
@@ -14,13 +16,13 @@
         align-items: center;
         text-align: center;
         padding: 0.5rem 0;
-        width: 23rem;
+        width: 40%;
         text-align: center;
-        border: 10px solid #42A1F5;
+        border: 10px solid #d8d8d8;;
         margin: 1rem 1rem 2rem 1rem;
-
+        background-color: black;
         border-radius: 10%;
-
+       
     &--converter{
         display: flex;
         flex-direction: column;
@@ -28,11 +30,11 @@
         align-items: center;
         text-align: center;
         padding: 0.5rem 0;
-        width: 23rem;
+        width: 40%;
         text-align: center;
-        border: 10px solid #5EC2CF;
+        border: 10px solid #d8d8d8;
         margin: 1rem 1rem 2rem 1rem;
-
+        background-color: black;
         border-radius: 10%;
     }
     }
@@ -51,12 +53,12 @@
         justify-content: center;
         font-family: "Indie Flower", cursive;
         color: rgb(0, 0, 0);
-        border: 3px solid #42A1F5;
+        border: 3px solid #fdfeff;
         border-left: 0;
         border-right: 0;
         font-size: 2.8rem;
         padding: .5rem;
-
+        color: white;
         
         &--converter{
             --couleur: 0, 0, 0;
@@ -65,28 +67,30 @@
         justify-content: center;
         font-family: 'Hind', sans-serif;
         color: rgb(0, 0, 0);
-        border: 3px solid #5EC2CF;
+        border: 3px solid #ffffff;
         border-left: 0;
         border-right: 0;
         font-size: 2.8rem;
         padding: .5rem;
+        color: white;
         }
     }
     .card__para {
         color: #000000;
         padding: 1rem 1rem;
         font-family: $fontFamily;
+        color: white;
     }
     .linkto {
         text-decoration: none;
-        color: #42A1F5;
+        color: #fbfdff;
         padding: 0.2rem;
         font-size: 2em;
         &:hover{
             color: #1b4468;
         }
         &__converter{
-            color:#5EC2CF;
+            color:#fbffff;
             text-decoration: none;
             padding: 0.2rem;
             font-size: 2em;
@@ -97,3 +101,36 @@
 
     }
     
+    @media (max-width:850px) {
+        .card__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0.5rem 0;
+            width: 100%;
+            text-align: center;
+            border: 10px solid $yellowColor;
+            margin: 1rem 1rem 2rem 1rem;
+           
+            border-radius: 10%;
+    
+        &--converter{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0.5rem 0;
+            width: 100%;
+            text-align: center;
+            border: 10px solid $yellowColor;
+            margin: 1rem 1rem 2rem 1rem;
+            
+            border-radius: 10%;
+        }
+        }
+
+
+    }
