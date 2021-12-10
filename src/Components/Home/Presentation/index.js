@@ -5,11 +5,12 @@ export const Presentation = () => {
     return (
         <div className="presentation__container">
            <h1 id="pres" className="presentation__title">Présentation</h1>
-           <p className="presentation__para"> L’adjectif bienvenu signifie « qui arrive à point, à propos, que l’on accueille avec satisfaction ». Il s’accorde en genre et en nombre avec le nom auquel il se rapporte. On écrira donc : « une remarque bienvenue », « des travaux bienvenus ».
-
-           Il en est de même avec le nom bienvenu, qui désigne une personne ou une chose accueillie avec plaisir : il prend la marque du féminin et du pluriel.
-           
-           Exemples : « Soyez les bienvenus ! » (ou les « bienvenues » si le message s’adresse exclusivement à des femmes), « Votre offre est la bienvenue », « Ces changements sont les bienvenus ».</p>
+           <p className="presentation__para">
+                    La reconversion professionnelle résulte de la volonté d'un individu, au cours de son activité, de changer de métier pour un toute nouvelle vie. C'est pour cela qu'après plusieurs années d'expérience dans l'aéronautique, j'ai souhaité me reconvertir dans le domaine développement web.
+                    Une formation certifiante m'a permis d'acquérir les connaissances techniques requises et de les appliquer dans ce cadre, à travers un projet de fin de formation. <br/>
+                    Je recherche à présent à mettre mes nouvelles compétences au service d'une équipe tout en poursuivant une formation en alternance.Bachelor 3 Concepteur-Développeur d'Applications
+                    Titre niveau 6 (code RNCP 31678 – code diplôme 26T32602)
+           </p>
         </div>
     )
 }
