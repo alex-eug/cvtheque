@@ -18,7 +18,7 @@
         padding: 0.5rem 0;
         width: 40%;
         text-align: center;
-        border: 10px solid #d8d8d8;;
+        border: 10px solid $yellowColor;
         margin: 1rem 1rem 2rem 1rem;
         background-color: black;
         border-radius: 10%;
@@ -32,7 +32,7 @@
         padding: 0.5rem 0;
         width: 40%;
         text-align: center;
-        border: 10px solid #d8d8d8;
+        border: 10px solid $yellowColor;
         margin: 1rem 1rem 2rem 1rem;
         background-color: black;
         border-radius: 10%;
@@ -87,7 +87,7 @@
         padding: 0.2rem;
         font-size: 2em;
         &:hover{
-            color: #1b4468;
+            color: $yellowColor;
         }
         &__converter{
             color:#fbffff;
@@ -95,7 +95,7 @@
             padding: 0.2rem;
             font-size: 2em;
             &:hover{
-                color: #1b4468;
+                color: $yellowColor ;
             }
         }
 

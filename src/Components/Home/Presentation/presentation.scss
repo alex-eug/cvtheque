@@ -61,6 +61,38 @@
         .presentation__title{
             font-family: $fontFamily;
             padding: 2rem;
+            font-size: 4em;
+            border-radius: 27px;
+            background: #e5fa6c;
+            box-shadow: inset 5px 5px 12px #626c2e,
+                        inset -5px -5px 12px #ffffaa;
+            margin: 2rem auto;
+            display: flex;
+            justify-content: center;
+            width: 70%;
+            color: rgb(255, 255, 255);
+           
+            
+            
+    }
+    .presentation__para {
+        justify-content: center;
+        text-align:justify;
+        font-size: 1.8em;
+        line-height: 1.1em;
+        padding: 1rem;
+        width: 80%;
+        letter-spacing: .01rem;
+    }
+    }
+    @media (max-width: 450px) {
+       .presentation__container{
+            margin: 0;
+       }
+       
+        .presentation__title{
+            font-family: $fontFamily;
+            padding: 2rem;
             font-size: 2em;
             border-radius: 27px;
             background: #e5fa6c;

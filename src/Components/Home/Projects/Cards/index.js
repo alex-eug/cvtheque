@@ -27,7 +27,7 @@ const Cards = () => {
             <div className="card__container--converter">
 
             <div className="card__container--img">
-                <img className="card__img" alt="foto du site koza" src={converter}></img>
+                <img className="card__img" alt="foto du site converter" src={converter}></img>
             </div>
             <div className="card__container--text">
                 <h3 className="card__title--converter">Converter</h3>
